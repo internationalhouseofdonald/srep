@@ -1,0 +1,27 @@
+$purple: #BD2DED;
+$royalblue: #4B23F7;
+$blue: #2B6BE0;
+$cadetblue: #405073;
+$robinsegg: #23E0F7;
+$seafoamgreen: #21ED8F;
+$red: #FD1B03;
+$magenta: #E609A2;
+
+.jumbotron {
+  background: $cadetblue;
+  border: 20px solid desaturate(lighten($cadetblue, 20%), 50%);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: $blue;
+}
+
+p {
+  text-indent: 30px;
+}
