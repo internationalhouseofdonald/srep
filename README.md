@@ -15,3 +15,11 @@
 [Medium](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
 
 [React Training](https://reacttraining.com/react-router/)
+
+## To do
+
+* Change Main Search search criteria to search-criteria.txt
+
+* Finish property search (you need the photos in order to display modals)
+
+* Do everything else
