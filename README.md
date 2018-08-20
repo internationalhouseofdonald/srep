@@ -1,25 +1,11 @@
-# Module
+# Known Bugs
 
-## Windows Users
+1. A search for "Galsworthy" should bring up 240 Galsworthy Ct but it doesn't.
 
-1. Windows has a problem installing Node.js modules when the node_modules folder is open in other programs. Make sure you close down all programs that could possibly have that folder open before running `npm install`
+    * A search for "alsworthy" works great! Plug a "g" or a "G" into the beginning of that, though and it fails. We don't really know why this happens because it works fine on the MySQL server.
+    
+2. You can't use abbreviations for Street Suffixes yet. If you're looking for Houze Rd, you must type in Houze Road and not "Rd."
 
-2. If that doesn't work, open the Properties panel of the node_modules folder and make sure the "Read-Only" box is unchecked. It might take a while and it doesn't always work but it's the only way of getting it done. There is a problem with the way `npm` handles file permissions on Windows.
+3.The back button and the UI don't always sync up. This is because of a conflict between the HTML History API and React Router 4.
 
-3. If all else fails, dual-boot into Ubuntu 16.04 &#128517;
-
-## React Router 4 Training
-
-[CSS Tricks](https://css-tricks.com/react-router-4/)
-
-[Medium](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
-
-[React Training](https://reacttraining.com/react-router/)
-
-## To do
-
-* Change Main Search search criteria to search-criteria.txt
-
-* Finish property search (you need the photos in order to display modals)
-
-* Do everything else
+  * This will be fixed in version 4.2.1
